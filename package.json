@@ -3,7 +3,6 @@
   "fullName": "RedditNotifier",
   "id": "jid1-jz0wH8To7NqwdQ",
   "description": "Notifies you of new Reddit messages.",
-  "dependencies": ["vold-utils", "toolbarbutton"],
   "author": "BoringCode",
   "license": "MPL 2.0",
   "version": "0.1"

@@ -11,15 +11,12 @@
  * for the specific language governing rights and limitations under the
  * License.
  *
- * The Original Code is Home Dash Utility.
- *
- * The Initial Developer of the Original Code is The Mozilla Foundation.
+ * The Initial Developer of the Original Code is Erik Vold
  * Portions created by the Initial Developer are Copyright (C) 2011
  * the Initial Developer. All Rights Reserved.
  *
  * Contributor(s):
- *   Edward Lee <edilee@mozilla.com>
- *   Erik Vold <erikvvold@gmail.com>
+ *   Erik Vold <erikvvold@gmail.com> (Original Author)
  *
  * Alternatively, the contents of this file may be used under the terms of
  * either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,27 +32,24 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
-"use strict";
+const windowUtils = require("window-utils");
+const menuitems = require("menuitems");
 
-var {unload} = require("unload+");
+let window = windowUtils.activeBrowserWindow;
+let document = window.document;
+function $(id) document.getElementById(id);
 
-/**
- * Helper that adds event listeners and remembers to remove on unload
- */
-exports.listen = function listen(window, node, event, func, capture) {
-  // Default to use capture
-  if (capture == null)
-    capture = true;
-
-  node.addEventListener(event, func, capture);
-  function undoListen() {
-    node.removeEventListener(event, func, capture);
-  }
-
-  // Undo the listener on unload and provide a way to undo everything
-  let undoUnload = unload(undoListen, window);
-  return function() {
-    undoListen();
-    undoUnload();
-  };
+function createMI(options, test) {
+  test.assertEqual(!$(options.id), true);
+  var mi = new menuitems.Menuitem(options);
+  return mi;
 }
+
+exports.testMIDoesNotExist = function(test) {
+  var options = {
+    id: "test-mi-dne",
+    label: "test"
+  };
+  createMI(options, test);
+  test.assertEqual(!$(options.id), true);
+};
