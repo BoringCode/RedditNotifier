@@ -2,10 +2,11 @@
 	"name": "redditnotifier",
 	"fullName": "RedditNotifier",
 	"id": "jid1-jz0wH8To7NqwdQ",
-	"description": "Notifies you of new Reddit messages.",
+	"description": "Notifies you of new messages on Reddit.",
 	"author": "BoringCode",
 	"license": "MPL 2.0",
-	"version": "0.1",
+	"version": "0.2",
+	"icon": "./data/reddit-notifier-icon.png",
 	"preferences": [
 		{
 			"name": "showNotifications",
