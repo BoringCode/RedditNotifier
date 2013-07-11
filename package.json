@@ -1,9 +1,24 @@
 {
-  "name": "redditnotifier",
-  "fullName": "RedditNotifier",
-  "id": "jid1-jz0wH8To7NqwdQ",
-  "description": "Notifies you of new Reddit messages.",
-  "author": "BoringCode",
-  "license": "MPL 2.0",
-  "version": "0.1"
+	"name": "redditnotifier",
+	"fullName": "RedditNotifier",
+	"id": "jid1-jz0wH8To7NqwdQ",
+	"description": "Notifies you of new Reddit messages.",
+	"author": "BoringCode",
+	"license": "MPL 2.0",
+	"version": "0.1",
+	"preferences": [
+		{
+			"name": "showNotifications",
+			"title": "Display notifications?",
+			"description": "Should notifications be shown every time you get new messages?",
+			"type": "bool",
+			"value": true
+		},
+		{
+			"name": "timing",
+			"title": "Check Reddit for new messages every (seconds):",
+			"description": "Minimum time is 30 seconds",
+			"value": 30
+		}
+	]
 }
