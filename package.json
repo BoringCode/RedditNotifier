@@ -18,6 +18,7 @@
 			"name": "timing",
 			"title": "Check Reddit for new messages every (seconds):",
 			"description": "Minimum time is 30 seconds",
+			"type": "integer",
 			"value": 30
 		}
 	]

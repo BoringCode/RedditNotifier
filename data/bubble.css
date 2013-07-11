@@ -4,3 +4,6 @@
 .redditnotifier-image[type=unread] {
 	list-style-image: url('reddit-notifier-icon-unread.png');
 }
+.redditnotifier-image[type=refresh] {
+	list-style-image: url('reddit-notifier-icon-refresh.png');
+}
