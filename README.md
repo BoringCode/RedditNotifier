@@ -2,6 +2,8 @@
 
 A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/).
 
+This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs/Jetpack).
+
 ###Features
 
 - Toolbar button to allow easy access to your reddit inbox.
