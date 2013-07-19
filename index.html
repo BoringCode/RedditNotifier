@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bradley Rosenfeld, Professional Web Developer</title>
+		<title>RedditNotifier</title>
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="style.css">
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 		<!--<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -17,6 +17,69 @@
 		</script>-->
 	</head>
 	<body>
-		<h1>TEST</h1>
+		<header>
+			<h1 class="pull-left"><a href="https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/" target="_blank">RedditNotifier</a></h1>
+			<p class="info pull-right">An addon for Firefox by <a href="http://bradleyrosenfeld.com" target="_blank">Bradley Rosenfeld</a>
+		</header>
+		<section>
+			<header>
+				<h2>Welcome!</h2>
+			</header>
+			<p>Thank you for installing RedditNotifier for Firefox.</p>
+			<p>If you like RedditNotifier, I appreciate <a href="https://addons.mozilla.org/en-US/firefox/addon/RedditNotifier/developers" target="_blank">donations</a>.
+		</section>
+		<section>
+			<header>
+				<h2>Version 0.5 Change Log</h2>
+			</header>
+			<ul class="list">
+				<li>The addon button now resets the unread count when clicked.</li>
+				<li>The size of the addon button has been decreased to fix an issue where the taskbar height would increase on install.</li>
+				<li>This page was created to help users use RedditNotifier to its fullest potential.</p>
+			</ul>
+		</section>
+		<section>
+			<header>
+				<h2>How to use</h2>
+			</header>
+			<ul>
+				<li>
+					<img src="images/bubble.png" class="pull-left">
+					<p>This is the addon button. It will display the number of unread messages that you have on reddit.</p>
+					<p>Clicking the addon button will open your unread inbox on reddit.</p>
+					<p>Opposite clicking the addon button will manually force a refresh of your unread count.</p>
+				</li>
+				<li>
+					<img src="images/notification.png" class="pull-right">
+					<p>Notifications appear when you receive new messages on reddit.</p>
+					<p>They can be disabled in the options section on the addon page.</p>
+				</li>
+				<li>
+					<img src="images/options.png">
+					<p>Addon settings can be found in <a href="about:addons">about:addons</a>. Navigate through your installed addons and click the options button on "RedditNotifier"</p>
+					<h3>Available Options</h3>
+					<ul class="list">
+						<li>
+							<p><strong>Display notifications?</strong> <i>(Default: true)</i></p>
+							<p>Too many people replying to your comment? You can disable notifications so you don't see a new notification every time there is a new message.</p>
+						</li>
+						<li>
+							<p><strong>Try to keep the addon button visible.</strong> <i>(Default: true)</i></p>
+							<p>This option will keep your addon button in the taskbar if it is hidden.</p>
+						</li>
+						<li>
+							<p><strong>Check Reddit for new messages every (num) seconds</strong> <i>(Default: 30 seconds)</i></p>
+							<p>Changing this option will change how often RedditNotifier checks reddit for new messages. The minimum time is 30 seconds.</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<header>
+				<h2>How can I help?</h2>
+			</header>
+			<p><a href="https://github.com/BoringCode/RedditNotifier/issues" target="_blank">Report bugs.</a></p>
+			<p>Contribute over on <a href="https://github.com/BoringCode/RedditNotifier" target="_blank">GitHub</a>!</p>
 	</body>
 </html>
