@@ -10,7 +10,7 @@ This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs
 - Notifications (can be turned off) when you have new messages.
 - A persistent bubble on the toolbar button that tells you exactly how many messages you have.
 - Restartless; just install and you're ready to go!
-- Doesn't store login credentials. Just log into to reddit like you normally would.
+- Doesn't store login credentials. Just log into reddit like you normally would.
 - Customizable refresh time (30 seconds to infinity).
 
 ###How can I help?
