@@ -94,6 +94,7 @@ section {
 	   section header h2 {
 	       font-size: 32px;
 	       font-family: 'FranchiseRegular';
+	       font-weight: normal;
 	   }
 	section p {
 		margin: 15px 0;
