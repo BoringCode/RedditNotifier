@@ -79,6 +79,12 @@ body > header {
 			text-decoration: none;
 		}
 
+iframe {
+	position: relative;
+	top: 6px;
+	border: none;
+}
+
 section {
 	width: 60%;
 	padding: 0 20%;
