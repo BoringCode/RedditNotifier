@@ -16,6 +16,13 @@
 			"value": true
 		},
 		{
+			"name": "playAlert",
+			"title": "Notification sound?",
+			"description": "Play a sound when there is a new notification?",
+			"type": "bool",
+			"value": true
+		},
+		{
 			"name": "forceShow",
 			"title": "Try to keep the addon button visible.",
 			"type": "bool",
