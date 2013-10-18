@@ -1,4 +1,4 @@
-#RedditNotifer (v0.5)
+#RedditNotifer (v1.0)
 
 A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/).
 
@@ -8,6 +8,7 @@ This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs
 
 - Toolbar button to allow easy access to your reddit inbox.
 - Notifications (can be turned off) when you have new messages.
+- Plays a sound when there are new messages (can be turned off).
 - A persistent bubble on the toolbar button that tells you exactly how many messages you have.
 - Restartless; just install and you're ready to go!
 - Doesn't store login credentials. Just log into reddit like you normally would.
