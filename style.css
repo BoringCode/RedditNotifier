@@ -124,14 +124,14 @@ section {
 	}
 
 /*Slight responsive fixes*/
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1240px) {
 	body > header, section {
 		width: 90%;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 }
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 830px) {
 	body > header {
 		height: auto;
 	}
