@@ -7,7 +7,8 @@ This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs
 ###Features
 
 - Toolbar button to allow easy access to your reddit inbox.
-- Notifications (can be turned off) when you have new messages.
+- Notifications (can be turned off) when you have new messages or moderator mail.
+- Watch your favorite subreddit for new posts.
 - Plays a sound when there are new messages (can be turned off).
 - A persistent bubble on the toolbar button that tells you exactly how many messages you have.
 - Restartless; just install and you're ready to go!
