@@ -1,6 +1,6 @@
 #RedditNotifer (v1.0)
 
-A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/).
+A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/). [Join us on reddit!](http://reddit.com/r/redditnotifier)
 
 This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs/Jetpack).
 
