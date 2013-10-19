@@ -34,6 +34,12 @@
 			"description": "Minimum time is 30 seconds",
 			"type": "integer",
 			"value": 30
+		},
+		{
+			"name": "subreddits",
+			"title": "Check for new posts in the following subreddits:",
+			"description": "Comma separated list of subreddits (e.g. gifs, politics)",
+			"type": "string"
 		}
 	]
 }
