@@ -5,7 +5,7 @@
 	"description": "Notifies you of new messages on Reddit.",
 	"author": "BoringCode",
 	"license": "MPL 2.0",
-	"version": "1.5",
+	"version": "1.5.1",
 	"icon": "./data/reddit-notifier-icon.png",
 	"preferences": [
 		{
