@@ -23,6 +23,13 @@
 			"value": true
 		},
 		{
+			"name": "volume",
+			"title": "Volume",
+			"description": "Set the volume of the notification sound from 0 to 100, with 100 being the loudest.",
+			"type": "integer",
+			"value": 80
+		},
+		{
 			"name": "forceShow",
 			"title": "Try to keep the addon button visible.",
 			"type": "bool",
