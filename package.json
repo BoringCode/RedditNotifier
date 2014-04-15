@@ -4,8 +4,9 @@
 	"id": "jid1-jz0wH8To7NqwdQ",
 	"description": "Notifies you of new messages on Reddit.",
 	"author": "BoringCode",
+	"url": "http://bradleyrosenfeld.com/RedditNotifier",
 	"license": "MPL 2.0",
-	"version": "1.5.1",
+	"version": "1.5.2",
 	"icon": "./data/reddit-notifier-icon.png",
 	"preferences": [
 		{
@@ -51,6 +52,12 @@
 		{
 			"name": "modMail",
 			"title": "Check for new moderator mail?",
+			"type": "bool",
+			"value": true
+		},
+		{
+			"name": "checkMail",
+			"title": "Check for unread messages and replies?",
 			"type": "bool",
 			"value": true
 		}
