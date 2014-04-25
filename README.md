@@ -1,4 +1,4 @@
-#RedditNotifer (v1.5.2)
+#RedditNotifer (v1.5.3)
 
 A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/).
 
