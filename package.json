@@ -6,7 +6,7 @@
 	"author": "BoringCode",
 	"url": "http://bradleyrosenfeld.com/RedditNotifier",
 	"license": "MPL 2.0",
-	"version": "1.5.3",
+	"version": "1.5.4",
 	"icon": "./data/reddit-notifier-icon.png",
 	"preferences": [
 		{
@@ -34,7 +34,7 @@
 			"name": "forceShow",
 			"title": "Try to keep the addon button visible.",
 			"type": "bool",
-			"value": true
+			"value": false
 		},
 		{
 			"name": "timing",
