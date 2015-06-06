@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 511.99999 511.99999"
+   id="svg4170"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="D:\xampp\htdocs\GIT\RedditNotifier\data\icon\default\icon-16.png"
+   inkscape:export-xdpi="2.8125"
+   inkscape:export-ydpi="2.8125">
+  <defs
+     id="defs4172" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="6.6933997"
+     inkscape:cy="448.95354"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4752"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata4175">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36219)">
+    <g
+       id="g4743"
+       transform="matrix(32.860663,0,0,32.860663,-16327.892,-28210.14)">
+      <g
+         id="g4752">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10475123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 497.43498,878.05188 0,9.32028 14.47619,0 0,-9.32028 z"
+           id="path4189"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 507.04026,882.97844 4.94594,4.535 z m -4.91949,0 -4.77884,4.535 z m -4.29425,-4.87938 c 0,0 2.92988,4.62265 5.45236,6.079 0.20661,0.11929 0.64678,0.36949 1.45205,0.36949 0.75489,0 1.13115,-0.23853 1.36591,-0.36949 2.48252,-1.38484 5.42826,-6.14356 5.42826,-6.14356 z"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.91294569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4739"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

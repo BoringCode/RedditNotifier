@@ -1,13 +1,14 @@
 {
 	"name": "redditnotifier",
 	"fullName": "RedditNotifier",
-	"id": "jid1-jz0wH8To7NqwdQ",
+	"id": "jid1-jz0wH8To7NqwdQ@jetpack",
 	"description": "Notifies you of new messages on Reddit.",
 	"author": "BoringCode",
 	"url": "http://bradleyrosenfeld.com/RedditNotifier",
 	"license": "MPL 2.0",
-	"version": "1.5.4",
-	"icon": "./data/reddit-notifier-icon.png",
+	"version": "2.0.0",
+	"main": "./lib/main.js",
+	"icon": "./data/icon-logo.png",
 	"preferences": [
 		{
 			"name": "showNotifications",
@@ -29,12 +30,6 @@
 			"description": "Set the volume of the notification sound from 0 to 100, with 100 being the loudest.",
 			"type": "integer",
 			"value": 80
-		},
-		{
-			"name": "forceShow",
-			"title": "Try to keep the addon button visible.",
-			"type": "bool",
-			"value": false
 		},
 		{
 			"name": "timing",

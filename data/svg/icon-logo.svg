@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 511.99999 511.99999"
+   id="svg4170"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon-logo.svg"
+   inkscape:export-filename="D:\xampp\htdocs\GIT\RedditNotifier\data\icon-logo.png"
+   inkscape:export-xdpi="22.5"
+   inkscape:export-ydpi="22.5">
+  <defs
+     id="defs4172" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="721.73664"
+     inkscape:cy="473.29781"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4752"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata4175">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36219)">
+    <g
+       id="g4743"
+       transform="matrix(32.860663,0,0,32.860663,-16327.892,-28210.14)">
+      <g
+         id="g4752">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#ff4500;stroke-width:1.10475123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 497.43498,879.0818 0,9.32028 14.47619,0 0,-9.32028 z"
+           id="path4189"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 507.04026,884.00836 4.94594,4.535 z m -4.91949,0 -4.77884,4.535 z m -4.29425,-4.87938 c 0,0 2.92988,4.62265 5.45236,6.079 0.20661,0.11929 0.64678,0.36949 1.45205,0.36949 0.75489,0 1.13115,-0.23853 1.36591,-0.36949 2.48252,-1.38484 5.42826,-6.14356 5.42826,-6.14356 z"
+           style="fill:none;fill-rule:evenodd;stroke:#ff4500;stroke-width:0.91294569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4739"
+           inkscape:connector-curvature="0" />
+        <circle
+           style="opacity:1;fill:#336699;fill-opacity:1;stroke:none;stroke-width:9;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path3337"
+           cx="499.78757"
+           cy="879.11633"
+           r="2.6467552" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.49409163px;line-height:125%;font-family:'Comic Sans';-inkscape-font-specification:'Comic Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="498.41388"
+           y="880.64801"
+           id="text4139"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4141"
+             x="498.41388"
+             y="880.64801"
+             style="font-size:4.20213318px;fill:#ffffff;fill-opacity:1">1</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
