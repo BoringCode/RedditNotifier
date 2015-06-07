@@ -17,8 +17,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="icon.svg"
    inkscape:export-filename="D:\xampp\htdocs\GIT\RedditNotifier\data\icon\default\icon-16.png"
-   inkscape:export-xdpi="2.8125"
-   inkscape:export-ydpi="2.8125">
+   inkscape:export-xdpi="2.8099999"
+   inkscape:export-ydpi="2.8099999">
   <defs
      id="defs4172" />
   <sodipodi:namedview
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="6.6933997"
-     inkscape:cy="448.95354"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="246.39758"
+     inkscape:cy="315.22324"
      inkscape:document-units="px"
      inkscape:current-layer="g4752"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,13 +63,13 @@
       <g
          id="g4752">
         <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10475123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:none;fill-rule:evenodd;stroke:#424f5a;stroke-width:1.36941851;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 497.43498,878.05188 0,9.32028 14.47619,0 0,-9.32028 z"
            id="path4189"
            inkscape:connector-curvature="0" />
         <path
            d="m 507.04026,882.97844 4.94594,4.535 z m -4.91949,0 -4.77884,4.535 z m -4.29425,-4.87938 c 0,0 2.92988,4.62265 5.45236,6.079 0.20661,0.11929 0.64678,0.36949 1.45205,0.36949 0.75489,0 1.13115,-0.23853 1.36591,-0.36949 2.48252,-1.38484 5.42826,-6.14356 5.42826,-6.14356 z"
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.91294569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:none;fill-rule:evenodd;stroke:#424f5a;stroke-width:1.15639785;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path4739"
            inkscape:connector-curvature="0" />
       </g>

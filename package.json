@@ -37,14 +37,13 @@
 			"title": "Check Reddit for new messages every (seconds):",
 			"description": "Minimum time is 10 seconds",
 			"type": "integer",
-			"value": 10
+			"value": 30
 		},
 		{
 			"name": "subreddits",
 			"title": "Check for new posts in the following subreddits:",
 			"description": "Comma separated list of subreddits (e.g. gifs, politics)",
-			"type": "string",
-			"value": "gifs, politics"
+			"type": "string"
 		},
 		{
 			"name": "modMail",

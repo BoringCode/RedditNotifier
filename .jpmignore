@@ -2,3 +2,5 @@
 
 *.xpi
 /screenshots
+
+*.svg
