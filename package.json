@@ -46,13 +46,13 @@
 			"type": "string"
 		},
 		{
-			"name": "modMail",
+			"name": "unreadModerator",
 			"title": "Check for new moderator mail?",
 			"type": "bool",
 			"value": true
 		},
 		{
-			"name": "checkMail",
+			"name": "unreadMessage",
 			"title": "Check for unread messages and replies?",
 			"type": "bool",
 			"value": true

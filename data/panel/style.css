@@ -1,0 +1,24 @@
+*, *:before, *:after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+   font-family: 'Helvetica', sans-serif;
+   font-size: 100%;
+   padding: 0.5em;
+}
+
+p {
+   margin-top: 1em;
+   font-size: 0.7em;
+}
+
+.message-list li {
+   cursor: pointer;
+   list-style: none;
+   width: 100%;
+   padding: 0.4em;
+   margin-bottom: 0.5em;
+   border-radius: 6px;
+   background: #CEE3F8;
+   color: black;
+   font-size: 0.9em;
+}
