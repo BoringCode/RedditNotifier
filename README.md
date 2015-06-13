@@ -1,4 +1,4 @@
-#[RedditNotifer](https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/) (v2.0.0) <img src="https://raw.githubusercontent.com/BoringCode/RedditNotifier/master/data/icon-logo.png" alt="Icon" align="right" height="48"/>
+#[RedditNotifer](https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/) (v2.0.1) <img src="https://raw.githubusercontent.com/BoringCode/RedditNotifier/master/data/icon-logo.png" alt="Icon" align="right" height="48"/>
 
 A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/).
 
