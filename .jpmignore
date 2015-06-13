@@ -4,3 +4,7 @@
 /screenshots
 
 *.svg
+
+/.git
+.gitignore
+.gitattributes
