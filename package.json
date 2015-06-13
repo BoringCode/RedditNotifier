@@ -2,13 +2,13 @@
 	"name": "redditnotifier",
 	"title": "RedditNotifier",
 	"id": "jid1-jz0wH8To7NqwdQ@jetpack",
-	"description": "Notifies you of new messages on reddit.",
-	"author": "BoringCode",
-	"url": "http://bradleyrosenfeld.com/RedditNotifier",
-	"license": "MPL 2.0",
+	"description": "Notifies you of new messages and posts on reddit.",
+	"author": "Bradley Rosenfeld",
+	"homepage": "http://bradleyrosenfeld.com/RedditNotifier/",
+	"license": "MPL-2.0",
 	"version": "2.0.0",
-	"main": "./lib/main.js",
-	"icon": "./data/icon-logo.png",
+	"main": "lib/main.js",
+	"icon": "data/icon-logo.png",
 	"permissions": ["multiprocess"],
 	"preferences": [
 		{
@@ -42,7 +42,7 @@
 		{
 			"name": "subreddits",
 			"title": "Check for new posts in the following subreddits:",
-			"description": "Comma separated list of subreddits (e.g. gifs, politics)",
+			"description": "Comma separated list of subreddit names (e.g. gifs, TagPro). Do not include /r/",
 			"type": "string"
 		},
 		{
