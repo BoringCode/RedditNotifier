@@ -20,15 +20,21 @@ This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs
 
 Install jpm (jetpack manager) using npm
 
-`npm install jpm -g`
+```
+npm install jpm -g
+```
 
-Test addon in a blank Firefox profile
+Test RedditNotifier with a blank Firefox profile (unread messages requires a reddit account)
 
-`jpm run`
+```
+jpm run
+```
 
 Export XPI (for distribution)
 
-`jpm xpi`
+```
+jpm xpi
+```
 
 ##How can I help?
 
