@@ -18,26 +18,31 @@
 	</head>
 	<body>
 		<header>
-			<h1 class="pull-left"><a href="https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/" target="_blank">RedditNotifier</a></h1>
-			<p class="info pull-right">An addon for Firefox by <a href="http://bradleyrosenfeld.com" target="_blank">Bradley Rosenfeld</a> (<a href="http://www.reddit.com/user/BoringCode" target="_blank">/u/BoringCode</a>)
+			<h1 class="pull-left"><a href="https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/">RedditNotifier</a></h1>
+			<p class="info pull-right">An addon for Firefox by <a href="http://bradleyrosenfeld.com">Bradley Rosenfeld</a> (<a href="http://www.reddit.com/user/BoringCode">/u/BoringCode</a>)
 		</header>
 		<section>
 			<header>
 				<h2>Welcome!</h2>
 			</header>
-			<p>Thank you for installing RedditNotifier for Firefox. <a href="http://reddit.com/r/redditnotifier/" target="_blank">Join us on reddit.</a> if you have suggestions or bug reports.</p>
-			<p>If you like RedditNotifier, I appreciate <a href="https://addons.mozilla.org/en-US/firefox/addon/RedditNotifier/developers" target="_blank">donations</a> or tips: <iframe src="https://www.gittip.com/BoringCode/widget.html" width="48pt" height="22pt"></iframe>
+			<p>Thank you for installing RedditNotifier for Firefox. <a href="http://reddit.com/r/redditnotifier/">Join us on reddit.</a>. If you encounter problems, please <a href="https://github.com/BoringCode/RedditNotifier/issues">report bugs on Github.</a></p>
+			<p>If you like RedditNotifier, I appreciate <a href="https://addons.mozilla.org/en-US/firefox/addon/RedditNotifier/developers">donations</a>.</p>
 		</section>
 		<section>
 			<header>
-				<h2>Version 1.5.4 Change Log</h2>
+				<h2>Version 2.0.0 Change Log</h2>
 			</header>
 			<ul class="list">
-				<li><strong>New feature:</strong> You can now toggle off moderator mail notifications in the options panel.</li>
-				<li><strong>New feature:</strong> Added option to disable checking for new messages and replies.</li>
-				<li><strong>New feature:</strong> Added a volume toggle for the alert sound.</li>
-				<li>Fixed subreddit new post bug</li>
-				<li>Updated for Addon SDK version 1.16</li>
+				<li><em>New Feature:</em> Panel that displays list of unread message types (including new posts in subreddits)</li>
+				<li>Clicking the addon button when there are no new updates takes the user directly to reddit</li>
+				<li>Removes logged out of reddit message (see issue <a href="https://github.com/BoringCode/RedditNotifier/issues/27">#27</a>)</li>
+				<li>Button bubble now updates with total unread count (this was broken by a Firefox update, see issue <a href="https://github.com/BoringCode/RedditNotifier/issues/32">#32</a>)</li>
+				<li>Manual refresh has been removed (hopefully to return once the addon button API matures)</li>
+				<li>Checking new posts in subreddits is now saved between browser restarts</li>
+				<li>Removing and adding subreddits in the preferences no longer overwrites newest post times of other subreddits</li>
+				<li>Code refactored to be more modular and easier to maintain</li>
+				<li>Unread messages data structure completely rewritten to be more DRY and easier to use</li>
+				<li>Ported addon to JPM (requires Firefox 38+)</li>
 			</ul>
 		</section>
 		<section>
@@ -46,19 +51,24 @@
 			</header>
 			<ul>
 				<li>
-					<p>Make sure you have a reddit account and that you are logged in. You can register for an account at <a href="https://ssl.reddit.com/login" target="_blank">reddit.com</a>.</p>
-					<p>Once you are logged in, the addon will automagically work. You don't need to enter your login credentials into the addon.</p>
+					<p>Make sure you have a reddit account and that you are logged in. You can register for an account at <a href="https://ssl.reddit.com/login">reddit.com</a>.</p>
+					<p>Once you are logged in, the addon will automatically work. You don't need to enter your login credentials into the addon.</p>
 				</li>
 				<li>
-					<img src="images/bubble.png" class="pull-left">
+					<img src="images/button.png" class="pull-left">
 					<p>This is the addon button. It will display the number of unread messages that you have on reddit.</p>
 					<p>Clicking the addon button will open your unread inbox on reddit.</p>
 					<p>Opposite clicking the addon button will manually force a refresh of your unread count.</p>
 				</li>
 				<li>
-					<img src="images/notification.png" class="pull-right">
+					<img src="images/alert.png" class="pull-right">
 					<p>Notifications appear when you receive new messages on reddit.</p>
 					<p>They can be disabled in the options section on the addon page.</p>
+				</li>
+				<li>
+					<img src="images/panel.png" class="pull-left">
+					<p>The notification panel displays currently unread messages or new subreddit posts.</p>
+					<p>Clicking an item will take you to the right place on reddit.</p>
 				</li>
 				<li>
 					<img src="images/options.png">
@@ -87,11 +97,15 @@
 						</li>
 						<li>
 							<p><strong>Check for new posts in the following subreddits</strong></p>
-							<p>Add subreddits that you would like to keep track of by entering a comma seperated list of the <strong>subreddit title</strong>. For example: gifs, politics, pics
+							<p>Add subreddits that you would like to keep track of by entering a comma seperated list of subreddit titles (without the /r/.) For example: gifs, TagPro, redditnotifier
 						</li>
 						<li>
 							<p><strong>Check for new moderator mail?</strong> <i>(Default: true)</i></p>
 							<p>Toggle the check for moderator mail on and off</p>
+						</li>
+						<li>
+							<p><strong>Check for unread messages and replies?</strong> <i>(Default: true)</i></p>
+							<p>Toggles checking for unread messages on and off. Useful if you only want to use the addon for modmail or subreddits.</p>
 						</li>
 					</ul>
 				</li>
@@ -101,8 +115,8 @@
 			<header>
 				<h2>How can I help?</h2>
 			</header>
-			<p><a href="https://github.com/BoringCode/RedditNotifier/issues" target="_blank">Report bugs.</a></p>
-			<p>Contribute over on <a href="https://github.com/BoringCode/RedditNotifier" target="_blank">GitHub</a>!</p>
-			<p><a href="http://reddit.com/r/redditnotifier/" target="_blank">Join us on reddit.</a></p>
+			<p><a href="https://github.com/BoringCode/RedditNotifier/issues">Report bugs.</a></p>
+			<p>Contribute over on <a href="https://github.com/BoringCode/RedditNotifier">GitHub</a>!</p>
+			<p><a href="http://reddit.com/r/redditnotifier/">Join us on reddit.</a></p>
 	</body>
 </html>
