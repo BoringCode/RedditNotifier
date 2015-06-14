@@ -43,7 +43,7 @@
          var item = document.createElement("li");
          item.setAttribute("data-key", prop);
          items.push(item);
-         item.innerHTML = obj.message;
+         item.textContent = obj.message;
          messageList.appendChild(item);
          //On click, open the the unread message
          item.addEventListener("click", itemClick);
