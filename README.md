@@ -1,10 +1,10 @@
-# [RedditNotifer](https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/) (v2.0.3) <img src="https://raw.githubusercontent.com/BoringCode/RedditNotifier/master/data/icon-logo.png" alt="Icon" align="right" height="48"/>
+# [RedditNotifer](https://addons.mozilla.org/en-US/firefox/addon/redditnotifier/) (v3.0.0) <img src="https://raw.githubusercontent.com/BoringCode/RedditNotifier/master/data/icon-logo.png" alt="Icon" align="right" height="48"/>
 
 A simple addon for Firefox that alerts you to new unread messages on [reddit](http://reddit.com/).
 
-This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs/Jetpack).
+This addon is written with the Firefox [WebExtensions API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions).
 
-##Features
+## Features
 
 - Toolbar button to allow easy access to your reddit inbox.
 - Notifications (can be turned off) when you have new messages or moderator mail.
@@ -18,22 +18,16 @@ This addon is written with the Firefox [Addon SDK](https://wiki.mozilla.org/Labs
 
 ## Development
 
-Install jpm (jetpack manager) using npm
+Install web-ext
 
-```
-npm install jpm -g
-```
-
-Test RedditNotifier with a blank Firefox profile (unread messages requires a reddit account)
-
-```
-jpm run
+```bash
+$ npm install --global web-ext
 ```
 
-Export XPI (for distribution)
+From the root project directory, run web-ext
 
-```
-jpm xpi
+```bash
+$ web-ext run
 ```
 
 ## How can I help?
