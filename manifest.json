@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "RedditNotifier",
+	"description": "Notifies you of new messages and posts on reddit.",
+	"version": "3.0.0",
+	"icons": {
+		"128": "icon.png"
+	},
+	"homepage_url": "https://github.com/BoringCode/RedditNotifier",
+	"developer": {
+		"name": "Bradley Rosenfeld",
+		"url": "https://bradleyrosenfeld.com"
+	},
+	"permissions": [
+		"*://*.reddit.com/*",
+		"webRequest",
+		"tabs"
+	]
+}
