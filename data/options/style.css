@@ -1,0 +1,52 @@
+/* 
+ * Super simple styles to come close to the default Mozilla about:addons styles
+ */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 100%;
+	color: #333;
+}
+
+form div {
+	border-top: 1px solid #c1c1c1;
+	padding: 10px 5px;
+	min-height: 30px;
+}
+
+label {
+	color: #333;
+	font-size: 0.95rem;
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+	padding-right: 4%;
+	cursor: pointer;
+}
+
+input {
+	display: inline-block;
+	vertical-align: middle;
+	width: 67%;
+	min-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 0.95rem;
+}
+
+
+input[type="checkbox"] {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.description {
+	font-size: 0.85rem;
+	color: graytext;
+	margin-left: 2em;
+}

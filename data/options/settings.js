@@ -73,7 +73,7 @@ var Settings = function(element) {
 		var value = ("value" in obj) ? obj["value"] : "";
 
 		var label = templater('<label for="{{name}}">{{title}}</label>');
-		self.element.appendChild(label({
+		element.appendChild(label({
 			"name": name,
 			"title": title
 		}));
@@ -85,13 +85,13 @@ var Settings = function(element) {
 			"min": ("min" in obj) ? obj["min"] : "",
 			"max": ("max" in obj) ? obj["max"] : ""
 		});
-		self.element.appendChild(input);
+		element.appendChild(input);
 		input.addEventListener("change", saveSetting);
 
 		// Add description 
 		if ("description" in obj) {
 			var description = templater("<p class='description'>{{description}}</p>");
-			self.element.appendChild(description({
+			element.appendChild(description({
 				"description": obj["description"]
 			}));
 		}
