@@ -6,14 +6,28 @@
 	"icons": {
 		"128": "icon.png"
 	},
+	"author": "Bradley Rosenfeld",
 	"homepage_url": "https://github.com/BoringCode/RedditNotifier",
-	"developer": {
-		"name": "Bradley Rosenfeld",
-		"url": "https://bradleyrosenfeld.com"
-	},
 	"permissions": [
 		"*://*.reddit.com/*",
 		"webRequest",
-		"tabs"
-	]
+		"tabs",
+		"storage"
+	],
+	"background": {
+		"scripts": [
+			"lib/main.js"
+		]
+	},
+	"options_ui": {
+		"page": "data/options/options.html"
+	},
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": {
+			"16": "data/icon/default/icon-16.png",
+			"32": "data/icon/default/icon-32.png"
+		},
+		"default_title": "RedditNotifier"
+	}
 }
