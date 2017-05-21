@@ -47,6 +47,6 @@ input[type="checkbox"] {
 
 .description {
 	font-size: 0.85rem;
-	color: graytext;
+	color: #888;
 	margin-left: 2em;
 }
