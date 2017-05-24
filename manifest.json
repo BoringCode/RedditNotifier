@@ -16,7 +16,8 @@
 		"notifications"
 	],
 	"background": {
-		"scripts": [ 
+		"scripts": [
+			"lib/sprintf.min.js",
 			"lib/utilities.js",
 			"lib/main.js" 
 		]
