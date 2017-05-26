@@ -1,9 +1,12 @@
 /* Panel.js
  * Displays unread messages in the addon panel
  */
+console.log("HELLO");
 
 (function() {
    "use strict";
+
+   console.log(config);
 
    var messageList = document.querySelector(".message-list");
    var items = [];
@@ -31,7 +34,7 @@
    }
 
    //Fills message list when panel is shown
-   self.port.on("show", function(data) {
+   /*self.port.on("show", function(data) {
       unread = data;
       var obj;
       //Reset message list
@@ -48,5 +51,5 @@
          //On click, open the the unread message
          item.addEventListener("click", itemClick);
       }
-   });
+   });*/
 })();
