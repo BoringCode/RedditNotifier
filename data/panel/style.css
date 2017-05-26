@@ -1,14 +1,14 @@
 *, *:before, *:after { margin: 0; padding: 0; box-sizing: border-box; }
 
-html, body {
+body {
    font-family: 'Helvetica', sans-serif;
    font-size: 100%;
+   min-width: 300px;
    padding: 0.5em;
    background: white;
 }
 
 p {
-   margin-top: 1em;
    font-size: 0.7em;
 }
 
